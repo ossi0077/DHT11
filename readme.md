@@ -1,29 +1,29 @@
-# DHT11/¿Â½Àµµ¼¾¼­
-- ´ë±â¿Âµµ¿Í ½Àµµ¸¦ ÃøÁ¤ÇÏ¿© µðÁöÅÐ ½ÅÈ£·Î Ãâ·ÂÇÏ´Â ¼¾¼­ÀÔ´Ï´Ù.
-- Á¤Àü½Ä ½Àµµ ¼¾¼­¿Í ¡®thermistor¡¯¸¦ ÀÌ¿ëÇÏ¿© ÃøÁ¤ÇÕ´Ï´Ù.
-- ½Àµµ¿Í ¿Âµµ¿¡ µû¶ó ÀúÇ×°ªÀ» º¯È­½ÃÄÑ ÃøÁ¤ÇÏ´Â ¼ÒÀÚÀÔ´Ï´Ù.
+# DHT11/ì˜¨ìŠµë„ì„¼ì„œ
+- ëŒ€ê¸°ì˜¨ë„ì™€ ìŠµë„ë¥¼ ì¸¡ì •í•˜ì—¬ ë””ì§€í„¸ ì‹ í˜¸ë¡œ ì¶œë ¥í•˜ëŠ” ì„¼ì„œìž…ë‹ˆë‹¤.
+- ì •ì „ì‹ ìŠµë„ ì„¼ì„œì™€ â€˜thermistorâ€™ë¥¼ ì´ìš©í•˜ì—¬ ì¸¡ì •í•©ë‹ˆë‹¤.
+- ìŠµë„ì™€ ì˜¨ë„ì— ë”°ë¼ ì €í•­ê°’ì„ ë³€í™”ì‹œì¼œ ì¸¡ì •í•˜ëŠ” ì†Œìžìž…ë‹ˆë‹¤.
 
 ## spec
-- µ¿ÀÛ Àü¾Ð : 3.3V ~ 5V
-- ÃøÁ¤ ¹üÀ§ : ¿Âµµ(0¡ÆC ~ 50¡ÆC) / ½Àµµ(20% ~ 90%)
-- ¿ÀÂ÷ ¹üÀ§ : ¿Âµµ(2¡ÆC)/½Àµµ(5%)
+- ë™ìž‘ ì „ì•• : 3.3V ~ 5V
+- ì¸¡ì • ë²”ìœ„ : ì˜¨ë„(0Â°C ~ 50Â°C) / ìŠµë„(20% ~ 90%)
+- ì˜¤ì°¨ ë²”ìœ„ : ì˜¨ë„(2Â°C)/ìŠµë„(5%)
 
-## ÇÊ¿ä ÇÏµå¿þ¾î
+## í•„ìš” í•˜ë“œì›¨ì–´
 - DHT11
 - Arduino UNO
 
-## ¿¬°á
+## ì—°ê²°
 |DHT11|Arduino|
 |--|--|
 |+|5V|
 |OUT|D2|
 |-|GND|
 
-<img src="./img/example_result.png" width=50% height=50%>
+<img src="./img/schematic.png" width=50% height=50%>
 
-## ¶óÀÌºê·¯¸®
+## ë¼ì´ë¸ŒëŸ¬ë¦¬
 - DHT sensor library
 
 ## example_code
-- ½ÇÇà »çÁø
-<img src="./img/schematic.png" width=50% height=50%>
+- ì‹¤í–‰ ì‚¬ì§„
+<img src="./img/example_result.png" width=50% height=50%>
